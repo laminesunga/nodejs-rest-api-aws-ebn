@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Lamine  server." });
+  res.send("welcome to lamine");
 });
 
 // set port, listen for requests
