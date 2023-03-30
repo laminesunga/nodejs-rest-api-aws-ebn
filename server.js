@@ -36,3 +36,5 @@ app.listen(PORT, () => {
 });
 
 app.use('/', require('./routes/userRoutes'))
+
+module.exports = app
